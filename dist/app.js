@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 app.get("/", (req, res) => {
-    res.send("x cccccccxxxxxcc");
+    console.log("ccc world");
+    res.send("cc ddddd c");
 });
 exports.default = app;
