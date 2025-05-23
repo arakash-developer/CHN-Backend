@@ -3,9 +3,9 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log("ccc world");
-
-  res.send("cc ff ssssc");
+  res.json({
+    message: "Hello, World!",
+  });
 });
 
 export default app;
